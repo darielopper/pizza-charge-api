@@ -5,11 +5,11 @@
       "connector": "strapi-hook-mongoose",
       "settings": {
         "client": "mongo",
-        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
-        "port": "${process.env.DATABASE_PORT || 27017}",
-        "database": "${process.env.DATABASE_NAME || 'strapi'}",
-        "username": "${process.env.DATABASE_USERNAME || ''}",
-        "password": "${process.env.DATABASE_PASSWORD || ''}"
+        "host": "${process.env.DATABASE_HOST || 'mongodb-4001-0.cloudclusters.net'}",
+        "port": "${process.env.DATABASE_PORT || 10013}",
+        "database": "${process.env.DATABASE_NAME || 'pizza-charge'}",
+        "username": "${process.env.DATABASE_USERNAME || 'admin'}",
+        "password": "${process.env.DATABASE_PASSWORD || 'admin123*'}"
       },
       "options": {}
     }
