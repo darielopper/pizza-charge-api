@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "pc_customers",
+  "info": {
+    "name": "customer",
+    "description": "Service Customers"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "minLength": 4,
+      "required": true,
+      "maxLength": 50,
+      "type": "string",
+      "unique": true
+    },
+    "phone": {
+      "maxLength": 50,
+      "type": "string"
+    },
+    "email": {
+      "unique": true,
+      "type": "email"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}
